@@ -1,0 +1,26 @@
+{
+  "name": "snowflake-idgen",
+  "version": "1.0.1",
+  "description": "the snowflake id generator",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "repository": "https://github.com/spiderjs/snowflake",
+  "author": "<yayanyang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "biguint-format": "^1.0.0",
+    "flake-idgen": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-plugin-node": "^4.2.1",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
